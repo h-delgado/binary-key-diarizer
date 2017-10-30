@@ -88,18 +88,8 @@ You will get the evaluation report in the standard output. If everything went fi
 
 	"OVERALL SPEAKER DIARIZATION ERROR = 4.62 percent of scored speaker time  `(ALL)"
 
-If you have any question or comment, you can reach me by email.
-
 Thanks for downloading and using the system!
 
 Héctor Delgado <hecdelflo at gmail.com>
 
-Change log:
-===========
 
-v1.1:
-=====
-- The routines for importing UEM and SAD labels have been refined and several bugs were fixed.
-- The KBM size can now be set as a percentage of the size of the initial Gaussian pool by means of parameters "useRelativeKBMsize" and "relKBMsize"
-- Added support for clustering with three different linkage criteria: single, complete and average.
-- Added a final re-segmentation stage based on GMM-ML to improve segment boundaries.
