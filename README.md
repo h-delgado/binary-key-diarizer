@@ -12,7 +12,7 @@ The code has been developed and tested in Matlab R20015b
 Matlab toolboxes required:
 =========================
 - Statistics toolbox
-- Parallel computing toolbox (optional, only if you want to take advantage of the cpu cores by using workers)
+- Parallel computing toolbox (optional, only if you want to take advantage of the cpu cores by using multiple workers)
 
 External toolboxes required:
 ===========================
