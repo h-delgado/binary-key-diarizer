@@ -17,7 +17,7 @@ Matlab toolboxes required:
 External toolboxes required:
 ===========================
 
-The system also requires some functions of external freely available toolboxes, but you do not need to download them: those funcions are included in the "/matlab/external" folder of this package. The required functions are the following:
+The system also requires some functions of external freely available toolboxes, but you do not need to download them: those funcions are included in the "/matlab/external" folder of this package. However, we acknoledge them next. The required functions are the following:
 
 - mvn_new.m: for handling multivariate normal distributions. From "Matlab/Octave Multivariate Normals Toolbox (Version 1)" (http://www.ofai.at/~dominik.schnitzer/mvn)
 
@@ -34,9 +34,7 @@ The included package consists of the following folders:
 
 - /eval/ 		contains the NIST md-eval-v21.pl for system evaluation
 - /featureFiles/ 	input feature files folder
-- /log/			generated log files are stored here
 - /matlab/		contains the matlab code
-- /out/			diarization outputs are stored here
 - /reference/		contains the reference files necessary to evaluate the system
 - /sad/			to place the Speech Activity Detection Files
 - /uem/			to place the UEM partition files
