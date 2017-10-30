@@ -1,1 +1,2 @@
 *.m linguist-language=Matlab
+eval/* linguist-vendored
