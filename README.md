@@ -1,5 +1,5 @@
 # binary-key-diarizer
-Speaker diarization system using Binary Key modelling
+Fast speaker diarization system using Binary Key modelling
 
 For more information about the binary key speaker diarization process, refer to the following publication:
 
