@@ -45,7 +45,7 @@ IMPORTANT NOTICE: Note that the system does not perform Feature Extraction nor S
 
 In order to easily test the system, we have provided some example data:
 
-* In /featureFiles folder you can find 5 feature files:
+In /featureFiles folder you can find 5 feature files:
 
 - 3054300.mfc
 - 3055877.mfc
@@ -61,7 +61,7 @@ Those are 19-order MFCCs feature files in HTK format. They were extracted from a
 - 3057402.mfc http://mediadownload2.f2.com.au/flash/media/2012/02/20/3057402/3057402_high.mp4
 - 3063115.mfc http://mediadownload2.f2.com.au/flash/media/2012/02/22/3063115/3063115_high.mp4
 
-* In "/sad" folder we include speech/non-speech label files. They were actually extracted from the reference speaker labels in "/reference" folder, so the SAD files are "perfect" in this example.
+In "/sad" folder we include speech/non-speech label files. They were actually extracted from the reference speaker labels in "/reference" folder, so the SAD files are "perfect" in this example.
 
 In the root folder of this package, the file "main.m" is included. This is a matlab script file in which all the system parameters are configured and from which the speaker diarization system is called. The possible values of the parameters are explained in the code comments. Read them carefully.
 
