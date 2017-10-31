@@ -99,6 +99,10 @@ end
 %LIST OF INPUT FILES
 %%%%%%%%%%%%%%%%%%%%
 
+% create directories
+mkdir(outputPath);
+mkdir(logPath);
+
 % scan the input feature folder to get the list of files with the
 % specified file extension
 showNameList = textscan(ls(strcat(featuresPath,'*',featuresExt)),'%s');
@@ -126,6 +130,8 @@ end
 if exist(strcat(outputPath,experimentName),'dir')==7
     rmdir(strcat(outputPath,experimentName),'s');
 end
+
+
 
 %finally, run diarization for each input file
 timeGlobal = tic;
