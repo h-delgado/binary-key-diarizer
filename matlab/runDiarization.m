@@ -133,7 +133,7 @@ if returnAllPartialSolutions
         mkdir(outputPathInd);
     end
     for i=1:k
-        getSegmentationFile(outputFormat, segmentTable, finalClusteringTable(:,k), indices, nFeatures, showName{1}, strcat(showName{1}, '_', num2str(length(unique(finalClusteringTable(:,i)))), '_spk'), outputPathInd, outputExt);
+        getSegmentationFile(outputFormat, segmentTable, finalClusteringTable(:,i), showName{1}, strcat(showName{1}, '_', num2str(length(unique(finalClusteringTable(:,i)))), '_spk'), outputPath, outputExt);
     end
 end
 
