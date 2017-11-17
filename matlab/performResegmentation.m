@@ -8,11 +8,11 @@ segEnd(:,1) = find(changePoints==-1);
 
 % if audio start with speech
 if mask(1)==1
-    segBeg(:,1) = 1:segBeg(:,1);    
+    segBeg = [1;segBeg];    
 end
 % if audio ends with speech
 if mask(end)==1
-    segEnd(:,1) = 1:segEnd(:,1);
+    segEnd = [segEnd;length(mask)];
 end
 
 nSegs = length(segBeg);
